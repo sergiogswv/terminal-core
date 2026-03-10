@@ -1,0 +1,32 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# Architect Linter - AI Configuration (contains API keys)
+.architect.ai.json
+
+# Sentinel - Archivos de configuración y caché (contienen API keys)
+.sentinelrc.toml
+.sentinel_stats.json
+.sentinel/
+.architect-cache/

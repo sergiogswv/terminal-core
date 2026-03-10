@@ -1,0 +1,97 @@
+{
+  "max_lines_per_function": 60,
+  "architecture_pattern": "Atomic Design",
+  "forbidden_imports": [
+    {
+      "from": "src/components/atoms/**/*",
+      "to": "src/components/molecules/**/*",
+      "severity": null
+    },
+    {
+      "from": "src/components/atoms/**/*",
+      "to": "src/components/organisms/**/*",
+      "severity": null
+    },
+    {
+      "from": "src/components/atoms/**/*",
+      "to": "src/components/templates/**/*",
+      "severity": null
+    },
+    {
+      "from": "src/components/atoms/**/*",
+      "to": "src/components/pages/**/*",
+      "severity": null
+    },
+    {
+      "from": "src/components/molecules/**/*",
+      "to": "src/components/organisms/**/*",
+      "severity": null
+    },
+    {
+      "from": "src/components/molecules/**/*",
+      "to": "src/components/templates/**/*",
+      "severity": null
+    },
+    {
+      "from": "src/components/molecules/**/*",
+      "to": "src/components/pages/**/*",
+      "severity": null
+    },
+    {
+      "from": "src/components/organisms/**/*",
+      "to": "src/components/templates/**/*",
+      "severity": null
+    },
+    {
+      "from": "src/components/organisms/**/*",
+      "to": "src/components/pages/**/*",
+      "severity": null
+    },
+    {
+      "from": "src/components/templates/**/*",
+      "to": "src/components/pages/**/*",
+      "severity": null
+    },
+    {
+      "from": "src/components/atoms/**/*",
+      "to": "src/store/**/*",
+      "severity": null
+    },
+    {
+      "from": "src/components/molecules/**/*",
+      "to": "src/store/**/*",
+      "severity": null
+    },
+    {
+      "from": "src/components/atoms/**/*",
+      "to": "src/services/**/*",
+      "severity": null
+    },
+    {
+      "from": "src/components/molecules/**/*",
+      "to": "src/services/**/*",
+      "severity": null
+    },
+    {
+      "from": "src/components/templates/**/*",
+      "to": "src/services/**/*",
+      "severity": null
+    }
+  ],
+  "ignored_paths": [
+    "node_modules/",
+    ".git/",
+    "coverage/",
+    ".vscode/",
+    ".idea/",
+    "build/",
+    "dist/",
+    ".next/",
+    "out/",
+    ".vite/",
+    ".turbo/",
+    ".parcel-cache/"
+  ],
+  "build_command": "npm run build",
+  "ai_fix_retries": 3
+}

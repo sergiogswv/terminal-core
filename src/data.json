@@ -1,0 +1,78 @@
+{
+  "username": "Sergio Guadarrama",
+  "bio": "Fullstack Developer | Experto en NestJS, Node.js & React",
+  "commands": {
+    "about": "Desarrollador Fullstack con más de 4 años de experiencia transformando arquitecturas complejas en soluciones escalables de alto rendimiento. Mi enfoque principal es la modernización de sistemas legacy, habiendo liderado con éxito la migración de ecosistemas completos de PHP hacia NestJS.\n\nMi especialidad técnica:\n• Backend: Experto en Node.js y NestJS, con fuerte dominio en la migración y optimización de bases de datos (PostgreSQL a SQL Server).\n• Frontend: Desarrollo de interfaces reactivas y eficientes con React.\n• Automatización & IA: Especialista en ingeniería inversa y automatización de procesos mediante n8n, integrando herramientas de IA para acelerar el ciclo de vida de desarrollo.\n\nMe apasiona la reingeniería de sistemas y la optimización de flujos de trabajo, convirtiendo procesos manuales en arquitecturas automatizadas que impactan directamente en la eficiencia operativa. Creyente fiel de las buenas prácticas, el código limpio y el liderazgo técnico basado en la colaboración ágil.",
+    "projects": [
+      {
+        "name": "Sentinel Pro",
+        "url": "https://github.com/sergiogswv/sentinel-pro"
+      },
+      {
+        "name": "Architect Linter Pro",
+        "url": "https://github.com/sergiogswv/architect-linter-pro"
+      },
+      {
+        "name": "Concrete Jungle",
+        "url": "https://github.com/sergiogswv/concrete-jungle"
+      }
+    ],
+    "social": [
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/guadarramasergio/"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/sergiogswv"
+      }
+    ],
+    "experience": [
+      {
+        "role": "Desarrollador full stack",
+        "company": "Grupo PROMASS",
+        "period": "feb. 2024 - actualidad (2 años 1 mes)",
+        "description": [
+          "Modernización de Arquitectura (Replatforming): Lideré la migración crítica del backend de PHP a NestJS.",
+          "Eficiencia Impulsada por IA: Implementé IA en el ciclo de desarrollo para lógica de backend y refactorización.",
+          "Gestión y Migración de Datos: Dirigí la migración de PostgreSQL a SQL Server con optimizaciones en Supabase.",
+          "Automatización e Ingeniería Inversa: Diseñé flujos con n8n para conectar sistemas sin API nativa.",
+          "Desarrollo de Productos de Negocio: Desarrollé API escalable con NestJS y cotizador de seguros con React."
+        ]
+      },
+      {
+        "role": "Desarrollador web",
+        "company": "Yavo Capital",
+        "period": "jul. 2023 - abr. 2024 (10 meses)",
+        "description": [
+          "Desarrollé la nueva página oficial en ReactJS.",
+          "Implementé sistema de tickets e intranet con ReactJS, NodeJS y SQL Server.",
+          "Construí un generador de estados de cuenta usando NextJS."
+        ]
+      },
+      {
+        "role": "Desarrollador web",
+        "company": "El Economista",
+        "period": "jun. 2022 - jul. 2023 (1 año 2 meses)",
+        "description": [
+          "Mejoré rendimiento y funcionamiento del sitio oficial (ReactJS/NextJS).",
+          "Integré APIs externas de CMS para contenido dinámico.",
+          "Optimicé uso del servidor para reducir carga.",
+          "Desarrollé un sistema administrativo en Laravel.",
+          "Mantenimiento del portal 'Contributions' con VueJS.",
+          "Manejo de base de datos y creación de stored procedures (SQL Server)."
+        ]
+      },
+      {
+        "role": "Empleado",
+        "company": "Nadro S.A.P.I. de C.V.",
+        "period": "ago. 2019 - nov. 2022 (3 años 4 meses)",
+        "description": [
+          "Análisis de información y uso de bases de datos relacionales.",
+          "Seguimiento de integración con clientes.",
+          "Desarrollo de validador de promociones interno."
+        ]
+      }
+    ]
+  }
+}
